@@ -8,4 +8,4 @@ OBJECTIVE: The objective, therefore, is to detect a variety (14 total) of common
 
 AUDIENCES: The general target audience for the project is healthcare providers. The more specific presentation audience is Vingroup Big Data Institute (VinBigData) that is working to build large-scale and high-precision medical imaging solutions based on the latest advancements in AI to facilitate efficient clinical workflows.
 
-DATA: The dataset includes 18,000 dicom images and was created by assembling de-identified chest X-ray studies provided by two hospitals in Vietnam: the Hospital 108 and the Hanoi Medical University Hospital.
+DATA: VinBigData has provided a dataset of 18,000 CXR scans dicom images labeled by a panel of experienced radiologists for the presence of 14 common thoracic abnormalities: aortic enlargement, atelectasis, calcification, cardiomegaly, consolidation, ILD, infiltration, lung opacity, nodule/mass, other lesion, pleural effusion, pleural thickening, pneumothorax, and pulmonary fibrosis. The dataset was created by assembling de-identified chest X-ray studies provided by two hospitals in Vietnam: the Hospital 108 and the Hanoi Medical University Hospital.
