@@ -2,11 +2,30 @@ import streamlit as st
 import numpy as np
 import joblib
 from PIL import Image
+import os
+import streamlit as st
+import tensorflow as tf 
 
-# Load the trained model
-model_file = open('final_df.pkl', 'rb')
-loaded_model = joblib.load(model_file)
-model_file.close()
+# Get the current working directory
+current_dir = os.getcwd()
+
+# Specify the path to the model file relative to the working directory
+model_path = os.path.join(current_dir, 'final_df.pkl')
+
+# Print information for debugging
+st.write(f"Current working directory: {current_dir}")
+st.write(f"Model file path: {model_path}")
+
+# Check if the file exists
+if os.path.exists(model_path):
+    # Load the trained model
+    model_file = open(model_path, 'rb')
+    loaded_model = joblib.load(model_file)
+    model_file.close()
+    st.success("Model loaded successfully.")
+else:
+    st.error(f"Model file not found at path: {model_path}")
+
 
 # Mapping from class indices to abnormality names
 class_mapping = {
