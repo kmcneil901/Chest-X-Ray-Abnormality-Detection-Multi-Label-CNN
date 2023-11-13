@@ -1,0 +1,6 @@
+﻿joblib==1.3.2
+numpy==1.24.3
+Pillow==10.1.0
+streamlit==1.28.1
+tensorflow==2.13.0
+scikeras==0.12.0
