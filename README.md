@@ -1,7 +1,6 @@
 # Chest X-Ray Abnormality Detection 
 ## Multi-Label Convolutional Neural Network (CNN) Image Classification Model
-## KENDALL MCNEIL
-November 2023
+KENDALL MCNEIL
 
 ![xrays](https://github.com/kmcneil901/Chest-X-Ray-Abnormality-Detection-Multi-Label-CNN/assets/139075900/8f09dfde-d263-4b91-88e0-92069c54035d)
 
@@ -28,5 +27,5 @@ For this project, I really desired to create something tangible that any user co
 
 <img width="733" alt="website_pic2" src="https://github.com/kmcneil901/Chest-X-Ray-Abnormality-Detection-Multi-Label-CNN/assets/139075900/2922b573-8396-4782-8be7-008909f0161f">
 
-##Thank you! 
+## Thank you! 
 Thank you for taking the time to explore my project. Be sure to checkout the website linked above and connect on [LinkedIn](https://www.linkedin.com/in/kendallmcneil/). If you have any feedback, please contact me using the information provided on the website. Cheers! 
