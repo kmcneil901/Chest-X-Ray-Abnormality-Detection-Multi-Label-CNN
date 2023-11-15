@@ -14,7 +14,7 @@ DATA: VinBigData has provided a dataset of 18,000 CXR scans dicom images labeled
 
 ## Repository Outline
 1. "Chest X-Ray Abnormality Detection (Multi-Label CNN).ipynb" is the main notebook page where the data cleaning, preprocessing, and modeling takes place.
-2. The "insert presentation name" is the deck for the non-techical presentation. 
+2. The PDF titled "Lung Abnormality Detection in Chest X-Rays Presentation Deck" are the slides from the non-techical presentation. 
 3. "lung_abnormality_detection_app.py" is where the steamlit website creation code is located.
 4. "model.h5" is the final model that is linked to the deployed streamlit website to generate new predictions.
 5. "requirements.txt" is the documentation about the environment setup to ensure seamless deployment of the streamlit webste despite any environment dependencies.
@@ -24,6 +24,9 @@ DATA: VinBigData has provided a dataset of 18,000 CXR scans dicom images labeled
 After preprocessing the data and testing our over 30 models using Conv2D, MaxPooling, Dropout and other regularization techniques, and image augmentation, the final results of the "black box" model was an 84% accuracy rate on the testing set and 85% accuracy rate on the training set. This is a strong start. Next steps include continued model tuning and pulling more data into the model. 
 
 ## Final Deliverable
-For this project, I really desired to create something tangible that any user could have access to. Therefore, I leveraged steamlit to create a [website](https://chest-x-ray-abnormality-detection-multi-label-cnn-hlxsplvft7v3.streamlit.app/)https://chest-x-ray-abnormality-detection-multi-label-cnn-hlxsplvft7v3.streamlit.app/ where a user submits a chest x-ray and then the model generates predictions and displays the results to the user. Additionally, for a user interested in the website, but does not have a chest x-ray, I provided four example chest x-rays. 
+For this project, I really desired to create something tangible that any user could have access to. Therefore, I leveraged steamlit to create [The Lung Abnormality Detection website](https://chest-x-ray-abnormality-detection-multi-label-cnn-hlxsplvft7v3.streamlit.app/) where a user submits a chest x-ray and then the model generates predictions and displays the results to the user. Additionally, for a user interested in the website, but does not have a chest x-ray, I provided four example chest x-rays. 
 
-Thank you for taking the time to explore my project. Be sure to checkout the website and connect on LinkedIn. If you have any feedback, please contact me using the information provided on the website. Cheers! 
+<img width="733" alt="website_pic2" src="https://github.com/kmcneil901/Chest-X-Ray-Abnormality-Detection-Multi-Label-CNN/assets/139075900/2922b573-8396-4782-8be7-008909f0161f">
+
+##Thank you! 
+Thank you for taking the time to explore my project. Be sure to checkout the website linked above and connect on [LinkedIn](https://www.linkedin.com/in/kendallmcneil/). If you have any feedback, please contact me using the information provided on the website. Cheers! 
