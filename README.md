@@ -1,5 +1,5 @@
 # Chest X-Ray Abnormality Detection 
-## Multi Label Convolutional Neural Network
+## Multi-Label Convolutional Neural Network (CNN) Image Classification Model
 ## KENDALL MCNEIL
 November 2023
 
